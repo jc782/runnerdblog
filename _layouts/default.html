@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+{%- include head.html -%}
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Runnerd</a>
+      <a class="btn btn-primary" href="#">Blog</a>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-center">    
+    <div class="row content">
+      <div class="col-sm-2">
+       </div>
+      <div class="col-sm-8 text-left"> 
+       {{content}}
+      <div class="col-sm-2">
+      </div>
+    </div>
+  </div>
+
+  {%- include footer.html -%}
+
+</body>
+
+</html>
