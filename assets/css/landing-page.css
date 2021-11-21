@@ -1,8 +1,21 @@
 /*!
- * Start Bootstrap - Landing Page v5.0.8 (https://startbootstrap.com/themes/landing-page)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ Key Colors
+ #EAE8E5
+#93CCE2
+#338A93
+#1D4752
+#1E334B
+  
  */
+
+ :root {
+  --c1: #EAE8E5;
+  --c2: #93CCE2;
+  --c1: #338A93;
+  --c2: #1D4752;
+  --c1: #1E334B;
+}
+
 
 html {
   height: 100%;
